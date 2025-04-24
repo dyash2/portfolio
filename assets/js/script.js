@@ -135,6 +135,24 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
+//link openup when pressing the image in portfolio
+// delay open on icon/image click
+const projectLinks = document.querySelectorAll(".project-item a");
+
+for (let i = 0; i < projectLinks.length; i++) {
+  projectLinks[i].addEventListener("click", function (event) {
+    event.preventDefault(); // prevent instant navigation
+
+    const link = this.getAttribute("href");
+
+    setTimeout(() => {
+      window.open(link, "_blank");
+    }, 300); // delay in milliseconds (e.g., 500ms = 0.5s)
+  });
+}
+
+
+
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
