@@ -229,6 +229,7 @@ article.active {
   text-transform: capitalize;
 }
 
+
 .h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-2); }
@@ -238,6 +239,12 @@ article.active {
 .h5 {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
+}
+
+.font-normal {
+  font-size: var(--fs-7);
+  color: var(--light-gray-70);
+  font-weight: normal;
 }
 
 .article-title {
@@ -825,11 +832,24 @@ main {
 
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust space between job title and period */
+}
+
 .timeline-item-title {
   font-size: var(--fs-6);
   line-height: 1.3;
-  margin-bottom: 7px;
+  margin: 0;
 }
+
+.job-period {
+  font-size: 0.95rem;
+  color: var(--light-gray);
+}
+
 
 .timeline-list span {
   color: var(--vegas-gold);
@@ -860,10 +880,29 @@ main {
 }
 
 .timeline-text {
-  color: var(--light-gray);
+  color: var(--light-gray-70);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  padding-left: 20px;
+  list-style: none; /* Remove default bullets */
+  position: relative;
 }
+
+.timeline-text li {
+  position: relative;
+  padding-left: 15px;
+}
+
+.timeline-text li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: white; /* Bullet color */
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+
 
 
 /**
