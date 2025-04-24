@@ -55,6 +55,7 @@
   );
 
   /* solid */
+  
 
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
@@ -721,6 +722,41 @@ main {
   line-height: 1.6;
 }
 
+.certifications-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.certification-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.certification-title {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #ffffff;
+}
+
+.certification-source {
+  font-size: 14px;
+  color: #81c784;
+  font-weight: bold;
+}
+
+
 
 /**
  * #clients 
@@ -1328,6 +1364,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #SIDEBAR
    */
 
+   
+
   .sidebar {
     max-height: 180px;
     margin-bottom: 30px;
@@ -1337,9 +1375,15 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
-
-  .avatar-box img { width: 120px; }
+  .avatar-box {
+    border-radius: 30px; /* Optional – applies to the container */
+  }
+  
+  .avatar-box img {
+    width: 120px;
+    border-radius: 10px; /* This adds the 10px curve to the image itself */
+  }
+  
 
   .info-content .name { margin-bottom: 15px; }
 

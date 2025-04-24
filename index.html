@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Personal Portfolio</title>
 
   <!--
     - favicon
@@ -42,17 +42,17 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/yash_profile.png" alt="Yash Debnath" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Yash Debnath">Yash Debnath</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">Cloud Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <span>Show Info</span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:ydebnath25@gmail.com" class="contact-link">ydebnath25@gmail.com</a>
             </div>
 
           </li>
@@ -88,24 +88,31 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="tel:+12133522795" class="contact-link">+91 9764502585  </a>
             </div>
 
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="calendar-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <p class="contact-title">Status</p>
+              <time datetime="2025-04-24">Actively searching</time>
             </div>
-
           </li>
+          
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="document-outline"></ion-icon> <!-- Better icon for CV -->
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">CV</p>
+              <a href="./assets/files/cv.pdf" download class="contact-link">Download CV</a>
+            </div>
+          </li>
+          
 
           <li class="contact-item">
 
@@ -116,7 +123,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Mumbai, Maharashtra, India</address>
             </div>
 
           </li>
@@ -204,23 +211,19 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
+       <section class="about-text">
+  <p>
+    I am a Cloud Engineer and Mobile Developer passionate about building scalable, secure, and efficient solutions using AWS cloud technologies.
+  </p>
 
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
+  <p>
+    I specialize in designing cloud infrastructure and developing mobile applications that are optimized for performance and user experience. With a strong foundation in mobile development and a growing expertise in cloud computing, I aim to deliver reliable and innovative solutions tailored to your needs.
+  </p>
+</section>
+
         </section>
 
 
@@ -230,183 +233,90 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
-
+          <h3 class="h3 service-title">What I'm Doing</h3>
+        
           <ul class="service-list">
-
+        
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/logo/cloud_architecture.png" alt="Cloud architecture icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
+                <h4 class="h4 service-item-title">Cloud Architecture</h4>
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  Designing scalable and cost-effective cloud architectures using AWS, Azure, and GCP to ensure high availability and reliability.
                 </p>
               </div>
-
             </li>
-
+        
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/logo/devops.png" alt="DevOps icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
+                <h4 class="h4 service-item-title">DevOps & Automation</h4>
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Automating deployments and infrastructure provisioning using tools like Terraform, CI/CD pipelines, and GitHub Actions.
                 </p>
               </div>
-
             </li>
-
+        
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/logo/cloud_security.png" alt="Cloud security icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
+                <h4 class="h4 service-item-title">Cloud Security</h4>
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  Ensuring secure cloud environments through IAM, encryption, monitoring, and compliance best practices.
                 </p>
               </div>
-
             </li>
-
+        
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/logo/cloud_monitor.png" alt="Monitoring icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
+                <h4 class="h4 service-item-title">Monitoring & Optimization</h4>
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  Setting up cloud monitoring and performance optimization using CloudWatch, Prometheus, and cost management tools.
                 </p>
               </div>
-
             </li>
-
+        
           </ul>
-
+        
         </section>
+        
 
 
         <!--
           - testimonials
         -->
 
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
+        <section class="certifications">
+          <h3 class="h3 certifications-title">Certifications</h3>
+        
+          <ul class="certifications-list">
+            <li class="certifications-item">
+              <div class="certification-card">
+                <img src="./assets/images/udemy_saa-03_jpg.jpg" alt="Java Programming Certificate" class="certificate-image">
+                <h4 class="certification-title">Ultimate AWS Certified Solutions Architect Associate 2025</h4>
+                <p class="certification-source">UDEMY</p>
               </div>
             </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
+        
+            <li class="certifications-item">
+              <div class="certification-card">
+                <img src="./assets/images/udemy_saa-03_jpg.jpg" alt="Java Programming Certificate" class="certificate-image">
+                <h4 class="certification-title">Ultimate AWS Certified Solutions Architect Associate 2025</h4>
+                <p class="certification-source">UDEMY</p>
               </div>
             </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
           </ul>
-
         </section>
-
-
+        
         <!--
           - testimonials modal
         -->
@@ -456,7 +366,7 @@
           - clients
         -->
 
-        <section class="clients">
+        <!-- <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
 
@@ -500,7 +410,7 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
       </article>
 
@@ -532,41 +442,37 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">Bachelor of Science - Computer Science</h4>
 
-              <span>2007 — 2008</span>
+              <span>2021 - 2024</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Annasaheb Vartak College, Vasai West<br>
+                
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">Higher Secondary Certificate (HSC)</h4>
 
-              <span>2006 — 2007</span>
+              <span>2019 - 2021</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                Vidyavikasini Junior College, Fatherwadi, Vasai East
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+              <h4 class="h4 timeline-item-title">Secondary School Certificate (SSC)</h4>
 
               <span>2002 — 2004</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                Infant Jesus High School, Nallasopara East
               </p>
 
             </li>
