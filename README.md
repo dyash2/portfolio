@@ -1,44 +1,40 @@
-# Personal Portfolio
+# Cloud Engineer Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+A fully responsive personal portfolio website built using **HTML**, **CSS**, and **JavaScript** — designed to showcase skills, certifications, projects, and experience in **Cloud Engineering**, **DevOps**, and **Cloud Support**.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 🌐 Demo
 
-## Demo
+![Desktop Demo](![image](https://github.com/user-attachments/assets/c6305ad7-520b-413a-96c2-14b611c7dddd)
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+![Mobile Demo](./website-demo-image/mobile.png)
 
-## Prerequisites
+## 💡 Features
 
-Before you begin, ensure you have met the following requirements:
+- Responsive design for desktop and mobile
+- About, Skills, Certifications, Projects, and Contact sections
+- Integrated links to resumes, GitHub, and LinkedIn
+- Simple and clean UI/UX
+- Easy to customize
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+## 🧰 Tech Stack
 
-## Installing vCard
+- **Frontend:** HTML, CSS, JavaScript
+- **Version Control:** Git
+- **Deployment:** GitHub Pages / Netlify / Vercel
 
-To install **vCard**, follow these steps:
+## ✅ Sections Included
 
-Linux and macOS:
+- **About Me**
+- **Skills** (e.g., AWS, Azure, GCP, Linux, Docker, Terraform, CI/CD, Kubernetes)
+- **Certifications** (e.g., AWS Certified Solutions Architect, Azure Fundamentals)
+- **Projects** (e.g., Infrastructure as Code, CI/CD Pipelines, Monitoring Dashboards)
+- **Experience**
+- **Contact**
+
+## 🚀 Installation
+
+To run this project locally:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-## License
-
-MIT
+git clone https://github.com/your-username/cloud-portfolio.git
+cd cloud-portfolio
