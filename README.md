@@ -4,9 +4,10 @@ A fully responsive personal portfolio website built using **HTML**, **CSS**, and
 
 ## 🌐 Demo
 
-![Desktop Demo](![image](https://github.com/user-attachments/assets/c6305ad7-520b-413a-96c2-14b611c7dddd)
+Desktop View(![image](https://github.com/user-attachments/assets/c6305ad7-520b-413a-96c2-14b611c7dddd)
 
-![Mobile Demo](./website-demo-image/mobile.png)
+Mobile View ![image](https://github.com/user-attachments/assets/3742cb81-a3b8-489e-a7a8-768e2412fdd0)
+
 
 ## 💡 Features
 
