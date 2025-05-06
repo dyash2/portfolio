@@ -4,9 +4,11 @@ A fully responsive personal portfolio website built using **HTML**, **CSS**, and
 
 ## 🌐 Demo
 
-Desktop View(![image](https://github.com/user-attachments/assets/c6305ad7-520b-413a-96c2-14b611c7dddd)
+Desktop View
+![image](https://github.com/user-attachments/assets/c6305ad7-520b-413a-96c2-14b611c7dddd)
 
-Mobile View ![image](https://github.com/user-attachments/assets/3742cb81-a3b8-489e-a7a8-768e2412fdd0)
+Mobile View
+![image](https://github.com/user-attachments/assets/3742cb81-a3b8-489e-a7a8-768e2412fdd0)
 
 
 ## 💡 Features
@@ -21,16 +23,14 @@ Mobile View ![image](https://github.com/user-attachments/assets/3742cb81-a3b8-48
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Version Control:** Git
-- **Deployment:** GitHub Pages / Netlify / Vercel
+- **Deployment:** GitHub Pages 
 
 ## ✅ Sections Included
 
 - **About Me**
-- **Skills** (e.g., AWS, Azure, GCP, Linux, Docker, Terraform, CI/CD, Kubernetes)
+- **Skills** (e.g., AWS, Azure, Linux, Docker, CI/CD, Kubernetes)
 - **Certifications** (e.g., AWS Certified Solutions Architect, Azure Fundamentals)
 - **Projects** (e.g., Infrastructure as Code, CI/CD Pipelines, Monitoring Dashboards)
-- **Experience**
-- **Contact**
 
 ## 🚀 Installation
 
