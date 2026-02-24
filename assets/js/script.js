@@ -58,7 +58,7 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
@@ -133,6 +133,58 @@ for (let i = 0; i < formInputs.length; i++) {
 
   });
 }
+
+// // enable / disable button
+// formInputs.forEach(input => {
+//   input.addEventListener("input", () => {
+//     form.checkValidity()
+//       ? formBtn.removeAttribute("disabled")
+//       : formBtn.setAttribute("disabled", "");
+//   });
+// });
+
+// email submit logic
+
+// email submit logic
+// email submit logic
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  // Get values from the data attributes
+  const name = form.querySelector('[data-name]').value;
+  const email = form.querySelector('[data-email]').value;
+  const message = form.querySelector('[data-message]').value;
+
+  // Create a readable timestamp for your {{time}} placeholder
+  const options = { dateStyle: 'medium', timeStyle: 'short' };
+  const currentTime = new Date().toLocaleString('en-IN', options);
+
+  // Change the button text to show it's sending
+  const btnText = formBtn.querySelector('span');
+  const originalText = btnText.innerText;
+  btnText.innerText = "Sending...";
+  formBtn.disabled = true;
+
+  emailjs.send("service_1aj0ybb", "template_43mn3w8", {
+    from_name: name,
+    from_email: email,  // Matches {{from_email}} in your template
+    reply_to: email,    // Allows you to hit 'Reply' in Gmail
+    message: message,   // Matches {{message}}
+    time: currentTime   // Matches {{time}}
+  })
+  .then(() => {
+    alert("Message sent successfully! ✅");
+    form.reset();
+    formBtn.setAttribute("disabled", ""); // Re-disable button after reset
+  })
+  .catch(err => {
+    console.error("EmailJS error:", err);
+    alert("Failed to send message. ❌");
+  })
+  .finally(() => {
+    btnText.innerText = originalText;
+  });
+});
 
 
 //link openup when pressing the image in portfolio
